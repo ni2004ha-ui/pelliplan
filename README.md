@@ -94,7 +94,4 @@ a browser (optional; needs Playwright).
 - Next.js and PostgreSQL were left out on purpose to keep it runnable with one command. The storage and API
   layers are separated so they can be swapped.
 
-## How this was built
 
-I built this with help from an AI assistant (Claude) for much of the code, and I ran, tested and reviewed it
-myself. The design decisions and trade-offs in `docs/DESIGN.md` are ones I can explain and defend.

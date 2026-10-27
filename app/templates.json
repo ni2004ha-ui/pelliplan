@@ -1,0 +1,56 @@
+{
+  "_note": "Starting-point checklists, NOT religious or cultural authority. Families differ. Edit this file with your elders and purohit.",
+  "ceremonies": [
+    {"match": ["muhurtham", "muhurtam", "wedding", "kalyanam", "pelli"], "label": "Muhurtham (wedding ceremony)", "requirements": [
+      {"key": "purohit", "label": "Priest (purohit) booked", "keywords": ["purohit", "priest", "pandit"],
+       "why": "The purohit leads the ceremony and fixes the exact muhurtham (auspicious time). Without a confirmed booking, the date and timing cannot be locked."},
+      {"key": "muhurtham_time", "label": "Muhurtham time confirmed with the purohit", "keywords": ["muhurtham time", "muhurtam time", "muhurtham timing", "lagnam", "auspicious time", "confirm muhurtham"],
+       "why": "Hair, makeup, guest arrival, catering and photography are all planned backwards from this time."},
+      {"key": "venue", "label": "Mandapam / venue booked", "keywords": ["mandapam", "venue", "hall", "kalyana"],
+       "why": "Venues for peak wedding dates are booked far ahead, and everything else depends on the location."},
+      {"key": "saree", "label": "Bride's wedding saree ready", "keywords": ["saree", "pattu", "kanchi"],
+       "why": "The saree is the longest-lead outfit item and the blouse and fall work cannot start without it."},
+      {"key": "blouse", "label": "Blouse stitched, fitted and altered", "keywords": ["blouse"],
+       "why": "Tailoring needs time for stitching, a fitting and alterations. A delay here is hard to recover."},
+      {"key": "jewellery", "label": "Bridal jewellery sorted", "keywords": ["jewellery", "jewelry", "gold", "necklace", "haram"],
+       "why": "Jewellery is often custom-made or sized, and it must be collected and secured before the day."},
+      {"key": "mangalsutra", "label": "Mangalsutra ready", "keywords": ["mangalsutra", "mangalasutra", "mangalyam", "thali"],
+       "why": "It is used during the ceremony itself, so it has to be ready and with the right person on the day."},
+      {"key": "groom_outfit", "label": "Groom's outfit ready", "keywords": ["groom", "sherwani", "dhoti", "panche", "kurta"],
+       "why": "Outfits need fitting time, and the groom's side may be shopping separately."},
+      {"key": "ritual_items", "label": "Ritual items (puja samagri, jeelakarra bellam, talambralu items)", "keywords": ["puja", "samagri", "ritual", "jeelakarra", "talambralu", "coconut"],
+       "why": "Rituals cannot start if an item is missing, and some are hard to find at the last minute. Confirm the exact list with your purohit or elders."},
+      {"key": "catering", "label": "Catering and menu finalised", "keywords": ["catering", "caterer", "menu"],
+       "why": "Caterers need a final guest count and menu well before the day to source ingredients."},
+      {"key": "photographer", "label": "Photographer / videographer booked", "keywords": ["photographer", "videographer", "photo", "video"],
+       "why": "Good photographers are booked months ahead, and the day cannot be repeated."},
+      {"key": "decor", "label": "Decoration and flowers arranged", "keywords": ["decor", "decoration", "flowers", "garland"],
+       "why": "Decor teams need access to the venue ahead of time, so the schedule must be agreed with the venue."},
+      {"key": "invitations", "label": "Invitations sent", "keywords": ["invitation", "invite", "card"],
+       "why": "Guests, especially those travelling, need notice. Late invitations lower attendance."},
+      {"key": "accommodation", "label": "Guest accommodation arranged", "keywords": ["accommodation", "guest room", "rooms", "stay"],
+       "why": "Out-of-town family need rooms close to the venue, and rooms near the venue fill up fast."},
+      {"key": "makeup", "label": "Bridal makeup and hair booked", "keywords": ["makeup", "make-up", "hair", "stylist"],
+       "why": "Makeup artists take limited bookings per day and need the muhurtham time to plan the start."}
+    ]},
+    {"match": ["pellikuthuru", "pellikoduku", "haldi", "pasupu"], "label": "Pellikuthuru (pre-wedding ritual)", "requirements": [
+      {"key": "purohit", "label": "Priest (purohit) confirmed", "keywords": ["purohit", "priest", "pandit"], "why": "The purohit guides the ritual and confirms the timing."},
+      {"key": "ritual_items", "label": "Ritual items (turmeric and other items)", "keywords": ["turmeric", "pasupu", "puja", "samagri", "ritual"], "why": "Items must be ready before the ritual begins. Confirm the exact list with elders."},
+      {"key": "outfit", "label": "Outfit for the ritual", "keywords": ["outfit", "saree", "dress", "yellow"], "why": "Outfits for ritual days are easy to forget and can need stitching time."},
+      {"key": "photographer", "label": "Photographer booked", "keywords": ["photographer", "photo", "video"], "why": "This is a once-only moment, so it needs coverage."}
+    ]},
+    {"match": ["mehendi", "mehndi", "sangeet"], "label": "Mehendi and Sangeet", "requirements": [
+      {"key": "mehendi_artist", "label": "Mehendi artist booked", "keywords": ["mehendi", "mehndi", "henna"], "why": "Applying bridal mehendi takes hours, and it needs to dry, so the artist's time slot drives the evening."},
+      {"key": "music", "label": "DJ / sound system arranged", "keywords": ["dj", "sound", "music", "speaker"], "why": "Sound needs setup time and venue permission."},
+      {"key": "choreography", "label": "Performances and rehearsals planned", "keywords": ["dance", "choreography", "rehearsal", "performance"], "why": "Group performances need several rehearsals, and everyone's availability is the hard part."},
+      {"key": "outfit", "label": "Outfits for the evening", "keywords": ["outfit", "lehenga", "dress", "saree"], "why": "Outfits may need stitching and alterations, and mehendi limits what can be worn."}
+    ]},
+    {"match": ["reception"], "label": "Reception", "requirements": [
+      {"key": "venue", "label": "Reception venue booked", "keywords": ["venue", "hall", "reception venue"], "why": "The venue sets the guest capacity and the date."},
+      {"key": "catering", "label": "Catering confirmed", "keywords": ["catering", "caterer", "menu"], "why": "The caterer needs a guest count and menu in advance."},
+      {"key": "decor", "label": "Stage and decor", "keywords": ["decor", "stage", "flowers"], "why": "Stage decor needs setup time at the venue."},
+      {"key": "outfit", "label": "Couple's outfits", "keywords": ["outfit", "saree", "lehenga", "sherwani", "suit"], "why": "Reception outfits are different from ceremony outfits and need their own fitting."},
+      {"key": "photographer", "label": "Photographer booked", "keywords": ["photographer", "photo", "video"], "why": "Reception photos are needed for family and guests."}
+    ]}
+  ]
+}
